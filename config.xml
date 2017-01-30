@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/R4CBW" version="0.2.1" viewmodes="maximized">
+    <tizen:application id="nGGTDXKODK.R4CBW" package="nGGTDXKODK" required_version="2.3.1"/>
+    <author href="http://hyonsok.io" email="s@hyonsok.io">Hyonsok Shin</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="ic_launcher.png"/>
+    <license>Open License</license>
+    <name>Roulette for Coffee Break</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="wearable"/>
+</widget>
