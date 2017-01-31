@@ -25,6 +25,10 @@
 	  outline-style:none
 	}
 	
+	body{
+		background-color:black;
+	}
+	
 	</style>
 
 
@@ -32,10 +36,10 @@
 
 </head>
 
-<body>
+<body >
 			
 			
-			<h5 align='center' id='userCnt' >0</h5>
+			<h5 align='center' id='userCnt'  style='color:white;'>0</h5>
 			  
 	
 		   <canvas id="canvas" class="pointerCursor" width="300" height="300" onclick="spin();"></canvas>
@@ -274,7 +278,7 @@
    
     ctx.save();
     ctx.font = 'bold 30px Helvetica, Arial';
-    ctx.fillStyle = "black";  
+    ctx.fillStyle = "white";  
     
     var text = options[index]
     donatorSelected = text;
