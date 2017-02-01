@@ -49,7 +49,7 @@
 								<button type="button" class="btn btn-default btn-lg" aria-label="Left Align" onclick='spin();'>
 							  Go
 							</button>
-							<button type="button" class="btn btn-default btn-lg" aria-label="Left Align" onclick='stopRotateWheel();'>
+							<button type="button" class="btn btn-default btn-lg" aria-label="Left Align" onclick='stopRotateWheel(false);'>
 							  Stop
 							</button>
 							<button type='button' class='btn btn-default btn-lg' aria-label='Left Align' onclick='reset()'>
@@ -241,6 +241,8 @@
       ctx.lineTo(canvasArc - 14, canvasArc - (outsideRadius + 5));//496,295
       ctx.fill(); 
     } 
+    
+    stopRotateWheel(true);
   }
   
   function spin() {
@@ -260,7 +262,7 @@
     
     spinTime += 5;
     if(spinTime >= spinTimeTotal) {
-      stopRotateWheel();
+      stopRotateWheel(false);
       return;
     }
     var spinAngle = spinAngleStart - easeOut(spinTime, 0, spinAngleStart, spinTimeTotal);
@@ -269,9 +271,11 @@
     spinTimeout = setTimeout('rotateWheel()', 30);
   }
   
-  function stopRotateWheel() { 
+  function stopRotateWheel(onGoingFlag) { 
     
-    clearTimeout(spinTimeout);
+    if(false == onGoingFlag){
+    	clearTimeout(spinTimeout);
+    }
     var degrees = startAngle * 180 / Math.PI + 90;
     var arcd = arc * 180 / Math.PI;
     var index = Math.floor((360 - degrees % 360) / arcd);
