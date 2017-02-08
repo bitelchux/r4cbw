@@ -2,6 +2,10 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI=".DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM=</DigestValue>
+</Reference>
 <Reference URI="AUTHORS">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>JxL0Hal+enEz6anp6uzYw07Eb5av6P0CXdwU5m7aObk=</DigestValue>
@@ -20,7 +24,7 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vJPEH3rrzNNeail2cNd2Znhk2xqVnYnfo+07dFCyTZk=</DigestValue>
+<DigestValue>gH1nxgz1+gnCuCLT9ELT5DXsfDvXyJuy/6jLw//HiBk=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -36,7 +40,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>lgzZcYrmk7Yu+FuYYPfO2twfSGCQmY3/ib2L7gRCNMM=</DigestValue>
+<DigestValue>1XiL+HE9FhwiIk9xvl4GIaHCnydgtWWbW5ji04SGon4=</DigestValue>
 </Reference>
 <Reference URI="js%2Fjquery-3.1.1.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1031,11 +1035,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-cZpEJtJ2w57nehQwGC0zUhdn4eDh9Mn2QqRQcmcAohYRWvQiSgi546Aea7fxXVCcVDd2kSAYIrtY
-VQ0koxBYztVNpD/Fa9uBig0JQ+BsvweJMUQLcfRJgwTS6MKOKCfblHzKNQWE0eNuJhRnoE6WKFrK
-uTspY+BBLFrD4fTZQFnpc2pICuuiMJLhJTaMawWGPlni99fpS+9IoZt88ciohip/qlofG1lKsB4l
-P8UqVcgcgnklG98XJ4o6jbIVgbbqfWXkraLkX8y2if8I8GiqFrGQ0TtjHhNHjMvSFfo6zzDKs+O4
-ImxYotmw6EA0D/g3D85f0apzvwpPacJatqtqeg==
+d3tuGs+NRdyTGnrDUqsbmfs2GsLBAXH11z+8neRrprRNVK7TFLiMsloRszzB0jzHJjwiuJdH3txe
+Hx03Uykc9aQkg/TquzEP35vifhsYucNtsHgbPu6d+0asycqqKMiFHPsvZoZ1Xatf/bmcAQT6unpq
+4734z+TACsUzmDhS3WsyTT+0eAYXo5zIKklMLA9GWfk4klswuH6YLbjbBuXVXWeaMBPOg+Nkp8nI
+KOdpiNmhgiWy7x6Ec4cE2vKzIF3cWD4KQ8djAptEFHa1KLo+Kt8TzrIlZT5y9p82QUpWA/Z5vmcH
+qPhSuKASRQuZLS8AMiQYYlDfNtLfUgcNKiW8KA==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

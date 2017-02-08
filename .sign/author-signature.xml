@@ -2,6 +2,10 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI=".DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM=</DigestValue>
+</Reference>
 <Reference URI="AUTHORS">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>JxL0Hal+enEz6anp6uzYw07Eb5av6P0CXdwU5m7aObk=</DigestValue>
@@ -32,7 +36,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>lgzZcYrmk7Yu+FuYYPfO2twfSGCQmY3/ib2L7gRCNMM=</DigestValue>
+<DigestValue>1XiL+HE9FhwiIk9xvl4GIaHCnydgtWWbW5ji04SGon4=</DigestValue>
 </Reference>
 <Reference URI="js%2Fjquery-3.1.1.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1027,11 +1031,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-MFb6iI/5uGR1Du7eDbif1QHmR4PhW/Xmg3O07BgRMoExgKtrhH+NVwL9j/VvMKtmj49aUQ3PLGfp
-qdc3ZYf9dM2GSihtLU4IEGltPyNyHLg+qX12NY7N0GtgVQFBpCZF4iEv7RTxg6eA2Y/5JUeAJkM5
-WwdSms6PZtMaZdlMyKGJ/1owzCeeao/hrpq1Gkzxl++VDKS0Jdy6qQhs+fqp9sICmYHXT5Uz5JBA
-FaensbFInURi3nBGwwn9V+XiQqoIf+ULsU/QTOMm4XKBFtwZLWr+CSN6piwOAZPxBsYSYxq5M1Br
-B6xGQL1teEwFuwJ8MsdV/HjxnsQ4mc1LbpW8Og==
+S92bWIgctwg3wsZ33zJVv0njh7WafC6hgPoSOj2rVNAyRm8CFxQsNo/rX97o7HT1YZruhCg96G+r
+5GPqUmU7wEcXneoDB2IRQ/IKmB2gbnOKRSabLwWonrAodPPY8xYW4Q9iR1tLXh5xflPD/pTq3BcG
++6Qq8UqQCDQ/oCcC0jK/MmmTahGnD5x4f8/LsM7mvzpiprwgVC2LFSpz1ohh9//8h8t0lasyZKSQ
+5oYpia7E6Kw9lvIkfo/vjTaQtkR1m8QV/tEYcPFY5QU8m1EyoCZj7pjbNBywh9qBAQCkjG3g6bFh
+6vq53bGxHLPcqfrXUecUw/Sg5q1aGSD+PyByOA==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
