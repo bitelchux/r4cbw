@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/R4CBW" version="0.2.1" viewmodes="maximized">
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/R4CBW" version="1.2.1" viewmodes="maximized">
     <tizen:application id="nGGTDXKODK.R4CBW" package="nGGTDXKODK" required_version="2.3.1"/>
     <author href="http://hyonsok.io" email="s@hyonsok.io">Hyonsok Shin</author>
     <content src="index.html"/>

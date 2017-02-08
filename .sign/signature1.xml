@@ -24,7 +24,7 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>gH1nxgz1+gnCuCLT9ELT5DXsfDvXyJuy/6jLw//HiBk=</DigestValue>
+<DigestValue>B2AlvEJENAUBr6Xxj2gu0YLRXNitTqmQMk7xPusQG7E=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1024,7 +1024,7 @@
 </Reference>
 <Reference URI="version.txt">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>r2zOjgQwmxIuZORgiDSW8urGXremI/T4ua10VC7GQdE=</DigestValue>
+<DigestValue>kIwUkbyFefPsX9/VsVOcwCDNQVXatkywH/LZ5nhYUf0=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -1035,11 +1035,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-d3tuGs+NRdyTGnrDUqsbmfs2GsLBAXH11z+8neRrprRNVK7TFLiMsloRszzB0jzHJjwiuJdH3txe
-Hx03Uykc9aQkg/TquzEP35vifhsYucNtsHgbPu6d+0asycqqKMiFHPsvZoZ1Xatf/bmcAQT6unpq
-4734z+TACsUzmDhS3WsyTT+0eAYXo5zIKklMLA9GWfk4klswuH6YLbjbBuXVXWeaMBPOg+Nkp8nI
-KOdpiNmhgiWy7x6Ec4cE2vKzIF3cWD4KQ8djAptEFHa1KLo+Kt8TzrIlZT5y9p82QUpWA/Z5vmcH
-qPhSuKASRQuZLS8AMiQYYlDfNtLfUgcNKiW8KA==
+M5XV6lpLetAWxAKXWOI5igy30+2FenhnwZu87E1NdkvhfQIC2iE0oX0STiO9w7wTnDyzBja+xPlx
+Nw+2VvndVbFlYIkVPMgBdLzXuLuXMbe8WyEOBHOOU4RVHAmfy0uKlhV35o4hWG6wqaU8ZeiQjrwj
+EuDFNqajwig37NR0L9v8v2OSx//xRwOwvT/QJhKJWZci1wEQAxQBWWLd/AFJIKvx6YHTs9vQIyST
+LprzOY0JhxruCu8QbqNL593Z/v/6AT9UO8TScjauOcjAejRoegXyd6z+2T0szjHq9O+oZyei0tMe
+7LITQBh8q/q+uqvFgFj49ewWYHiYJS8Jl3urfA==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

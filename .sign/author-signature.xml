@@ -1020,7 +1020,7 @@
 </Reference>
 <Reference URI="version.txt">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>r2zOjgQwmxIuZORgiDSW8urGXremI/T4ua10VC7GQdE=</DigestValue>
+<DigestValue>kIwUkbyFefPsX9/VsVOcwCDNQVXatkywH/LZ5nhYUf0=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -1031,11 +1031,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-S92bWIgctwg3wsZ33zJVv0njh7WafC6hgPoSOj2rVNAyRm8CFxQsNo/rX97o7HT1YZruhCg96G+r
-5GPqUmU7wEcXneoDB2IRQ/IKmB2gbnOKRSabLwWonrAodPPY8xYW4Q9iR1tLXh5xflPD/pTq3BcG
-+6Qq8UqQCDQ/oCcC0jK/MmmTahGnD5x4f8/LsM7mvzpiprwgVC2LFSpz1ohh9//8h8t0lasyZKSQ
-5oYpia7E6Kw9lvIkfo/vjTaQtkR1m8QV/tEYcPFY5QU8m1EyoCZj7pjbNBywh9qBAQCkjG3g6bFh
-6vq53bGxHLPcqfrXUecUw/Sg5q1aGSD+PyByOA==
+Cu2lN05F6RES1IELvva/J/I5JEUQ3zOHOWRjAzewIqSwctmBKiAtx0ZNQD1NuYY3Nb7aZLDIyrsc
+2BdinZAjXBT+jNYF/ApGwv4XhXv3ewdQd0xaEkulKIGKVTcSEJurZ/CzY+tURgWOL7TmdEyakx70
+9bUfUr/LnqnZsmI+WQIDeLYudosM8YJjkmUgcICZpdpD4yk3UJUSAasS0m2JL91FPoSj6fa0UyiS
+tMxN3rPYtnKflX/CYwLjhhRLWaABLeAiXEWaZAvrgARsL8QuoeyjIZdpG8qXrkScTKirQYgs91kg
+mp2CEcwrjL4wL4X3llSwH5dIlDsCdY26FmuxrQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
